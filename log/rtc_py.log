@@ -1,0 +1,47 @@
+2024-02-06 20:44:55,643 file.manager INFO 2.0.1
+2024-02-06 20:44:55,643 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:44:55,643 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-06 20:44:55,643 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:44:55,643 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-06 20:44:55,643 file.manager INFO   All right reserved.
+2024-02-06 20:44:55,644 file.manager INFO Manager starting.
+2024-02-06 20:44:55,644 file.manager INFO Starting local logging.
+2024-02-06 20:44:55,645 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-06 20:44:55,648 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-06 20:44:55,783 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-02-06 20:44:55,784 file.ec_base INFO setRate(1000000.000000) done
+2024-02-06 20:44:55,785 file.ec_base INFO setRate(1000.000000) done
+2024-02-06 20:44:55,785 file.rtobject INFO 1 execution context was created.
+2024-02-06 20:44:55,787 file.rtobject INFO Initial active configuration set is default.
+2024-02-06 20:45:29,298 file.manager INFO 2.0.1
+2024-02-06 20:45:29,299 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:45:29,299 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-06 20:45:29,299 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:45:29,299 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-06 20:45:29,299 file.manager INFO   All right reserved.
+2024-02-06 20:45:29,299 file.manager INFO Manager starting.
+2024-02-06 20:45:29,299 file.manager INFO Starting local logging.
+2024-02-06 20:45:29,300 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-06 20:45:29,304 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-06 20:45:29,427 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-02-06 20:45:29,428 file.ec_base INFO setRate(1000000.000000) done
+2024-02-06 20:45:29,428 file.ec_base INFO setRate(1000.000000) done
+2024-02-06 20:45:29,433 file.rtobject INFO 1 execution context was created.
+2024-02-06 20:45:29,436 file.rtobject INFO Initial active configuration set is default.
+2024-02-06 20:46:12,057 file.manager INFO 2.0.1
+2024-02-06 20:46:12,058 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:46:12,058 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-06 20:46:12,058 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-06 20:46:12,058 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-06 20:46:12,058 file.manager INFO   All right reserved.
+2024-02-06 20:46:12,058 file.manager INFO Manager starting.
+2024-02-06 20:46:12,058 file.manager INFO Starting local logging.
+2024-02-06 20:46:12,060 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-06 20:46:12,064 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-06 20:46:12,194 file.manager INFO Component instance conf file: conf/Management30.conf loaded.
+2024-02-06 20:46:12,196 file.ec_base INFO setRate(1000000.000000) done
+2024-02-06 20:46:12,196 file.ec_base INFO setRate(1000.000000) done
+2024-02-06 20:46:12,196 file.rtobject INFO 1 execution context was created.
+2024-02-06 20:46:12,198 file.rtobject INFO Initial active configuration set is default.
+2024-02-06 20:46:17,357 file.ec_base WARNING The component is not responding.
+2024-02-06 20:46:17,357 file.ec_base ERROR Unknown error: Invalid state transition.

@@ -1,0 +1,54 @@
+# Management3 CMake config file
+#
+# This file sets the following variables:
+# Management3_FOUND - Always TRUE.
+# Management3_INCLUDE_DIRS - Directories containing the Management3 include files.
+# Management3_IDL_DIRS - Directories containing the Management3 IDL files.
+# Management3_LIBRARIES - Libraries needed to use Management3.
+# Management3_DEFINITIONS - Compiler flags for Management3.
+# Management3_VERSION - The version of Management3 found.
+# Management3_VERSION_MAJOR - The major version of Management3 found.
+# Management3_VERSION_MINOR - The minor version of Management3 found.
+# Management3_VERSION_REVISION - The revision version of Management3 found.
+# Management3_VERSION_CANDIDATE - The candidate version of Management3 found.
+
+message(STATUS "Found Management3-@PROJECT_VERSION@")
+set(Management3_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(Management3_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(Management3_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(Management3_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(Management3_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(Management3_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(Management3_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(Management3_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(Management3_VERSION @PROJECT_VERSION@)
+set(Management3_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(Management3_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(Management3_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(Management3_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+
